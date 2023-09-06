@@ -81,7 +81,25 @@ class Scanner {
         if (match('/')) {
           // A comment goes until the end of the line.
           while (peek() != '\n' && !isAtEnd()) advance();
-        } else {
+
+        } else if(match('*')) {
+          // multi-line comment goes on until it hits */
+          while (peek() != '*' &&  peekNext() != '/' && !isAtEnd()){
+            char ch = advance();
+
+            if(ch == '\n'){
+              //increment line if there's a newline
+              line++;
+            }
+          }
+
+          if(peek() == '*' && peekNext() == '/' ){
+            //consume the */ to not count them as tokens
+            advance();
+            advance();
+          }
+        }
+        else {
           addToken(SLASH);
         }
         break;
@@ -137,7 +155,6 @@ class Scanner {
     addToken(NUMBER,
         Double.parseDouble(source.substring(start, current)));
   }
-
 
   private void string() {
     while (peek() != '"' && !isAtEnd()) {
