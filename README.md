@@ -19,7 +19,7 @@ Welcome to the 'jlox' interpreter project, an implementation of a tree-walking i
 This project serves as a hands-on exploration of compilers and programming language theory through the implementation of a functional 'jlox' interpreter. This project follows the book's imlpementation while tackling additional challenges and features introduced in each chapter.
 
 ## Purpose
-The primary purpose of this project is to deepen my understanding of compilers and programming language theory. By implementing the 'jlox' interpreter, I aim to gain hands-on experience with key concepts such as lexical analysis, parsing, abstract syntax trees (ASTs), and interpreter design. The additional challenges and features introduced in each chapter serve as valuable exercises to expand my knowledge and skills in this domain.
+The primary purpose of this project is to serve as a hands-on explioration of compilers and programming language theory. By implementing the 'jlox' interpreter, I aim to gain hands-on experience and deepen my understanding of key concepts such as lexical analysis, parsing, abstract syntax trees (ASTs), and interpreter design. The additional challenges and features introduced in each chapter serve as valuable exercises to expand my knowledge and skills in this domain.
    
 ## Challenges
 The book provides challenges in each chapter that may ask you to implement an additional feature or functionality to the language on your own.
