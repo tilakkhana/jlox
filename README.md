@@ -1,2 +1,5 @@
-## Hello! 
-This is where I will be implementing the first interpreter in java (jlox) from the book *Crafting Interpreters* by Robert Nystrom (craftinginterpreters.com). I will be implementing the code as-is in the book and later on I might implement some extra functionality to the language.
+## Chapter 4 Challenge - Adding supprot for block comments!
+    Chapter 4 challlenge #4: Add support to Lox’s scanner for C-style /* ... */ block comments. Make sure to handle newlines in them.
+
+## Comments
+This first challenge was pretty easy but very informative and got me a lot more familiar with the Scanner class.
