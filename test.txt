@@ -1,0 +1,5 @@
+if(a == 0)
+
+/* this is a based
+	multi line comment!!
+	LOOOOOL!!!
