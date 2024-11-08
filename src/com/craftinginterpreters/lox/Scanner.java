@@ -219,9 +219,9 @@ class Scanner {
     addToken(type, null);
   }
 
- private void addToken(TokenType type, Object literal) {
-   String text = source.substring(start, current);
-   tokens.add(new Token(type, text, literal, line));
- }
+  private void addToken(TokenType type, Object literal) {
+    String text = source.substring(start, current);
+    tokens.add(new Token(type, text, literal, line));
+  }
 
 }
