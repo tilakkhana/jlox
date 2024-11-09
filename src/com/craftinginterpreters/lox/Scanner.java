@@ -93,6 +93,10 @@ class Scanner {
             }
           }
 
+          if(isAtEnd()){
+            Lox.error(line, "Unterminated multi-line /* string");
+          }
+
           if(peek() == '*' && peekNext() == '/' ){
             //consume the */ to not count them as tokens
             advance();
