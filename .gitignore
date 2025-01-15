@@ -3,4 +3,5 @@ bin
 lib
 CHALLENGES.md
 test.txt
+/src/com/craftinginterpreters/tool/
 NOTES.md
